@@ -2,6 +2,12 @@
 
 # Third Slide #
 
-!SLIDE
+!SLIDE bullets incremental
 
-## Fourth Slide ##
+# Fourth Slide #
+
+* something
+* something else
+* a third thing
+* a fourth thing
+* a fifth thing
