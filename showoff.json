@@ -2,5 +2,9 @@
   {"section":"title"},
   {"section":"about_me"},
   {"section":"git_in_60"},
-  {"section":"two"}
+  {"section":"selection_and_ranges", "vote":1},
+  {"section":"data_munging", "vote":1},
+  {"section":"debugging", "vote":1},
+  {"section":"customizing_git", "vote":1},
+  {"section":"final"}
 ]
