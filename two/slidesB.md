@@ -1,7 +1,16 @@
-!SLIDE
+!SLIDE commandline incremental
 
-# Fifth Slide #
+	$ git commit -am 'incremental bullet points working'
+	[master ac5fd8a] incremental bullet points working
+	 2 files changed, 32 insertions(+), 5 deletions(-)
 
-!SLIDE
+!SLIDE commandline incremental
 
-## Sixth Slide ##
+	$ git commit -am 'incremental bullet points working'
+	[bmaster ac5fd8a] incremental bullet points working
+	 2 files changed, 32 insertions(+), 5 deletions(-)
+	
+	$ git commit -am 'incremental bullet points working'
+	[cmaster ac5fd8a] incremental bullet points working
+	 2 files changed, 32 insertions(+), 5 deletions(-)
+
