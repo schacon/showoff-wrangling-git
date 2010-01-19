@@ -1,6 +1,8 @@
 !SLIDE
 
-# Smacking Git Around #
+# Git Wrangling #
+
+## Advanced Tips and Tricks ##
 
 ### by Scott Chacon ###
 

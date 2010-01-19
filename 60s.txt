@@ -1,0 +1,21 @@
+Git is an open source, distributed version control system 
+implemented as a directed acyclic graph of commit objects 
+pointing to snapshots of content, 
+with all data saved in it's own custom content addressable filesystem 
+by the SHA-1 checksum hash of each objects data.  
+branches are simply pointers into this directed graph of commits, 
+identifying entry points that designate the latest work on that branch, 
+allowing Git to traverse the pointers, determining a coherent history.  
+this makes branching cheap and easy, 
+and merging simple, 
+encouraging non-linear development styles 
+and frictionless context switching 
+while facilitating distributed development, 
+cryptographic integrity 
+and late decision making.  
+nearly all commands run locally with no network latency overhead 
+and it is implemented mainly in C, 
+making it incredibly fast and efficient even for very large projects.  
+There are several large open source projects using it, 
+not to mention the 200,000  open source repositories 
+maintained by the 175,000 developers on GitHub alone.
