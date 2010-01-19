@@ -1,6 +1,3 @@
-revision selection
-commit mining (log options, filtering, pretty)
-diff A...B
 
 subtree merging
 checkout -m
@@ -8,8 +5,6 @@ checkout -m
 interactive rebase
 cherry pick
 filter branch
-
-finish attributes
 
 git notes
 smart http
