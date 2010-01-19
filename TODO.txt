@@ -1,13 +1,7 @@
 
-subtree merging
-checkout -m
-
 interactive rebase
 cherry pick
 filter branch
-
-git notes
-smart http
 
 overview (all commands covered)
 cheat sheet?

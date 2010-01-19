@@ -2,13 +2,14 @@
 
 # that's it!
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental small
 
 # Resources #
 
 * git-scm.com
 * progit.org
 * \#git / \#github on IRC
-* peepcode - git book and screencast
+* git-wrangling.heroku.com
 * schacon@gmail.com
+* Malthouse, tonight at 7pm
 
