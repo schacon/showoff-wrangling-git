@@ -39,30 +39,29 @@
 !SLIDE commandline incremental small
 
 	$ git blame -C GITPackUpload.m
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  12) 
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  13) #define PACK_SIGN
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  14) #define PACK_VERS
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  15) 
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  16) @implementation G
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  17) 
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  18) @synthesize gitRe
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  19) @synthesize needR
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  20) @synthesize gitSo
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  21) @synthesize refDi
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  22) 
-	a2cbabf5 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-25 22:29:39 +0100  23) - (id) initWithGi
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  24) {
-	a2cbabf5 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-25 22:29:39 +0100  25)        gitRepo = 
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  26)        needRefs =
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  27)        gitSocket 
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  28)        return sel
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  29) }
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  30) 
-	ad11ac80 Source/Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50 +0100  31) - (bool) uploadPa
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  32) {
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  33)        NSLog(@"up
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  34)        NSString *
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  35)        NSArray *t
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  36)        
-	56ef2caf Source/Network/GITServerHandler.m (Scott Chacon  2009-01-05 21:44:26 -0800  37)        refDict = 
-	f344f58d Source/Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04 -0800  38)        
+	f344f58d Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04   12) 
+	f344f58d Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04   13) #define PACK_SIGN
+	f344f58d Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04   14) #define PACK_VERS
+	f344f58d Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04   15) 
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   16) @implementation G
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   17) 
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   18) @synthesize gitRe
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   19) @synthesize needR
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   20) @synthesize gitSo
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   21) @synthesize refDi
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   22) 
+	a2cbabf5 Network/GITPackUpload.m    (Scott Chacon  2009-03-25 22:29:39   23) - (id) initWithGi
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   24) {
+	a2cbabf5 Network/GITPackUpload.m    (Scott Chacon  2009-03-25 22:29:39   25)        gitRepo = 
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   26)        needRefs =
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   27)        gitSocket 
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   28)        return sel
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   29) }
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   30) 
+	ad11ac80 Network/GITPackUpload.m    (Scott Chacon  2009-03-24 18:32:50   31) - (bool) uploadPa
+	f344f58d Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04   32) {
+	f344f58d Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04   33)        NSLog(@"up
+	f344f58d Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04   34)        NSString *
+	f344f58d Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04   35)        NSArray *t
+	f344f58d Network/GITServerHandler.m (Scott Chacon  2009-01-04 18:59:04   36)        
+	56ef2caf Network/GITServerHandler.m (Scott Chacon  2009-01-05 21:44:26   37)        refDict = 
