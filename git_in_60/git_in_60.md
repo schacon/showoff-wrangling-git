@@ -83,10 +83,12 @@
 ![img/gitin60s/GitIn60.040.jpg](img/gitin60s/GitIn60.040.jpg)
 
 !SLIDE center
-![img/gitin60s/GitIn60.041.jpg](img/gitin60s/GitIn60.041.jpg)
+
+# 250,000 repos #
 
 !SLIDE center
-![img/gitin60s/GitIn60.042.jpg](img/gitin60s/GitIn60.042.jpg)
+
+# 175,000 developers #
 
 !SLIDE center
 ![img/gitin60s/GitIn60.043.jpg](img/gitin60s/GitIn60.043.jpg)
