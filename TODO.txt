@@ -10,6 +10,7 @@ blame -C
 
 add -p
 interactive rebase
+cherry pick
 filter branch
 
 finish attributes
