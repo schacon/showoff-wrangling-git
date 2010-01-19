@@ -4,13 +4,17 @@ diff A...B
 
 subtree merging
 checkout -m
-add -p
 
 bisect
 blame -C
 
-attributes
-colors
+add -p
+interactive rebase
+filter branch
+
+finish attributes
 
 git notes
 smart http
+
+cheat sheet?
