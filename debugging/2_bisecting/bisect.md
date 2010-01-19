@@ -28,3 +28,4 @@
 	    secure this thing
 
 	:040000 040000 40ee3e7821b895e52c1695092db9bdc4c61d1730 f24d3c6ebcfc639b1a3814550e62d60b8e68a8e4 M	config
+	$ git bisect reset

@@ -5,10 +5,6 @@ diff A...B
 subtree merging
 checkout -m
 
-bisect
-blame -C
-
-add -p
 interactive rebase
 cherry pick
 filter branch
@@ -18,4 +14,5 @@ finish attributes
 git notes
 smart http
 
+overview (all commands covered)
 cheat sheet?
