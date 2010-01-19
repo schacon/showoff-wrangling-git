@@ -1,0 +1,16 @@
+revision selection
+commit mining (log options, filtering, pretty)
+diff A...B
+
+subtree merging
+checkout -m
+add -p
+
+bisect
+blame -C
+
+attributes
+colors
+
+git notes
+smart http

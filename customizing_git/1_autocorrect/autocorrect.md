@@ -1,3 +1,7 @@
+!SLIDE subsection
+
+# Autocorrect #
+
 !SLIDE commandline incremental
 
 	$ git com

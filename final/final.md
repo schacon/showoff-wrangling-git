@@ -1,3 +1,7 @@
+!SLIDE
+
+# that's it!
+
 !SLIDE bullets incremental
 
 # Resources #
