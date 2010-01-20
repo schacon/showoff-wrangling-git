@@ -60,7 +60,7 @@
 
 # git diff master...experiment #
 
-!SLIDE command
+!SLIDE command small
 
 # git diff master...experiment #
 
