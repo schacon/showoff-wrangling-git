@@ -12,11 +12,28 @@
 	* d6016bc require time for xmlschema
 	*   11d191e Merge branch 'defunkt' into local
 
+	$ git show --stat 420eac9
+	commit 420eac97a826bfac8724b6b0eef35c20922124b7
+	Author: Dustin Sallings <dustin@spy.net>
+	Date:   Tue Apr 1 10:52:03 2008 -0700
+
+	    Added a method for getting the current branch.
+
+	 lib/grit/head.rb |   16 ++++++++++++++--
+	 lib/grit/repo.rb |    9 ++++++++-
+	 2 files changed, 22 insertions(+), 3 deletions(-)
+	
 !SLIDE command
 
 # git diff master experiment #
 
 !SLIDE commandline incremental
+
+	$ git show --stat 420eac9
+  	 ...
+	 lib/grit/head.rb |   16 ++++++++++++++--
+	 lib/grit/repo.rb |    9 ++++++++-
+	 2 files changed, 22 insertions(+), 3 deletions(-)
 
 	$ git diff --stat master experiment
 	 lib/grit.rb                |    2 -
@@ -43,12 +60,11 @@
 
 # git diff master...experiment #
 
-!SLIDE commandline incremental
+!SLIDE command
 
-	$ git diff --stat master...experiment
-	 lib/grit/head.rb |   16 ++++++++++++++--
-	 lib/grit/repo.rb |    9 ++++++++-
-	 2 files changed, 22 insertions(+), 3 deletions(-)
+# git diff master...experiment #
+
+# git diff $(git merge-base master experiment) experiment #
 
 !SLIDE commandline incremental
 

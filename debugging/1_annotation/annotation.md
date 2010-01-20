@@ -1,8 +1,8 @@
-!SLIDE
+!SLIDE subsection
 
 # git blame #
 
-## ie: "what dumbass did this? oh yeah, it was me..." ##
+### ie: "what dumbass did this? oh yeah, it was me..." ###
 
 !SLIDE commandline incremental small
 

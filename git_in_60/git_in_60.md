@@ -102,3 +102,16 @@
 !SLIDE center
 ![img/gitin60s/GitIn60.046.jpg](img/gitin60s/GitIn60.046.jpg)
 
+!SLIDE
+
+# ok #
+
+!SLIDE bullets incremental
+
+* data mining
+* data munging
+* debugging
+* customizing git
+* new stuff
+
+
