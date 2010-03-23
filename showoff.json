@@ -1,7 +1,6 @@
 [
   {"section":"title"},
   {"section":"about_me"},
-  {"section":"git_in_60"},
   {"section":"data_mining", "vote":1},
   {"section":"data_munging", "vote":1},
   {"section":"debugging", "vote":1},
