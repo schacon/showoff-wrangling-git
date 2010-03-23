@@ -2,7 +2,7 @@
 
 # Git Attributes #
 
-!SLIDE 
+!SLIDE
 
 # .gitattributes #
 
@@ -27,7 +27,7 @@
 
 !SLIDE commandline small incremental
 
-	$ exiftool image.png 
+	$ exiftool image.png
 	ExifTool Version Number         : 7.74
 	File Name                       : image.png
 	Directory                       : .
@@ -58,13 +58,13 @@
 	$ echo '*.png diff=exif' >> .gitattributes
 	# take every file that ends in png
 	# and pre-process them with a strategy called ‘exif’
-	
+
 	$ git config diff.exif.textconv exiftool
 	# the 'exif' strategy is to run exiftool on the file
 
 !SLIDE small
 
-@@@ diff
+	@@@ diff
 	$ git diff
 	diff --git a/image.png b/image.png
 	index 88839c4..4afcb7c 100644
@@ -84,4 +84,3 @@
 	+Image Height                    : 827
 	 Bit Depth                       : 8
 	 Color Type                      : RGB with Alpha
-@@@

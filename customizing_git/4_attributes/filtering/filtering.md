@@ -1,4 +1,4 @@
-!SLIDE 
+!SLIDE
 
 # Filtering #
 
@@ -31,13 +31,12 @@
 
 # /usr/bin/expand_date
 
-@@@ruby
+	@@@ruby
 	#! /usr/bin/env ruby
 	data = STDIN.read
 	date = `git log --pretty=format:"%ad" -1`
-	puts data.gsub('$Date$', 
+	puts data.gsub('$Date$',
 			'$Date: ' + date + '$')
-@@@
 
 !SLIDE commandline incremental
 
@@ -45,8 +44,8 @@
 
 	$ git config filter.dater.clean \
 	  'perl -pe "s/\\\$Date[^\\\$]*\\\$/\\\$Date\\\$/"'
-	
-!SLIDE 
+
+!SLIDE
 
 # test it #
 
@@ -59,5 +58,5 @@
 	$ rm date_test.rb
 	$ git checkout date_test.rb
 
-	$ cat date_test.rb	
+	$ cat date_test.rb
 	# $Date: Tue Apr 21 07:26:52 2009 -0700$

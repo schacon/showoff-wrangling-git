@@ -22,7 +22,7 @@
 
 !SLIDE commandline
 
-@@@diff
+	@@@ diff
 	$ git add -p
 	diff --git a/lib/unicorn/configurator.rb b/lib/unicorn/configurator.rb
 	index 6f49905..7724ff0 100644
@@ -47,12 +47,11 @@
 	     end
 
 	Stage this hunk [y,n,q,a,d,/,s,e,?]?
-@@@
 
 !SLIDE commandline
 
-@@@ diff
-	Stage this hunk [y,n,q,a,d,/,s,e,?]? s        
+	@@@ diff
+	Stage this hunk [y,n,q,a,d,/,s,e,?]? s
 	Split into 2 hunks.
 	@@ -143,7 +143,9 @@
 	     # handling the request/app.call/response cycle taking longer than
@@ -65,12 +64,11 @@
 	     def timeout(seconds)
 	       Numeric === seconds or raise ArgumentError,
 	                                   "not numeric: timeout=#{seconds.inspect}"
-	Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]? 
-@@@
+	Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]?
 
 !SLIDE commandline
 
-@@@ diff
+	@@@ diff
 	Stage this hunk [y,n,q,a,d,/,s,e,?]? y
 	@@ -147,8 +149,8 @@
 	     def timeout(seconds)
@@ -82,9 +80,8 @@
 	+                                  "too low: timeout=#{seconds.inspect}"
 	       @set[:timeout] = seconds
 	     end
- 
-	Stage this hunk [y,n,q,a,d,/,K,g,e,?]? 
-@@@
+
+	Stage this hunk [y,n,q,a,d,/,K,g,e,?]?
 
 !SLIDE commandline incremental
 

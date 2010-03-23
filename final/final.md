@@ -10,6 +10,4 @@
 * progit.org
 * \#git / \#github on IRC
 * schacon@gmail.com
-* http://bit.ly/git-wrangling
-* Malthouse, tonight at 7pm
 
