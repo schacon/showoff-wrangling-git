@@ -134,3 +134,7 @@
 
 # shotgun style #
 
+!SLIDE
+
+# git-tips.heroku.com #
+
