@@ -6,9 +6,10 @@ by the SHA-1 checksum hash of each objects data.
 branches are simply pointers into this directed graph of commits, 
 identifying entry points that designate the latest work on that branch, 
 allowing Git to traverse the pointers, determining a coherent history.  
-this makes branching cheap and easy, 
-and merging simple, 
-encouraging non-linear development styles 
+this makes branching cheap and easy,
+and merging simple.
+this makes branches seem amazing,
+and encourages non-linear development styles 
 and frictionless context switching 
 while facilitating distributed development, 
 cryptographic integrity 

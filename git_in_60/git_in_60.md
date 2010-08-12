@@ -53,6 +53,9 @@
 ![img/gitin60s/GitIn60.030.jpg](img/gitin60s/GitIn60.030.jpg)
 
 !SLIDE center
+![awesome](branch.jpg)
+
+!SLIDE center
 ![img/gitin60s/GitIn60.031.jpg](img/gitin60s/GitIn60.031.jpg)
 
 !SLIDE center
@@ -82,13 +85,30 @@
 !SLIDE center
 ![img/gitin60s/GitIn60.040.jpg](img/gitin60s/GitIn60.040.jpg)
 
-!SLIDE center
+!SLIDE
 
-# 250,000 repos #
+# 300,000 original projects #
 
-!SLIDE center
+	>> Repository.count(:conditions => 
+		{ :parent_id => nil, :public => 1 })
+	=> 302209
 
-# 175,000 developers #
+!SLIDE
+
+# 810,000 public repositories #
+
+	>> Repository.count(:conditions => 
+		{ :public => 1 }) 
+	   + Gist.count(:conditions => 
+		{:public => 1})
+	=> 816612
+
+!SLIDE
+
+# 340,000 developers #
+
+	>> User.count
+	=> 343558
 
 !SLIDE center
 ![img/gitin60s/GitIn60.043.jpg](img/gitin60s/GitIn60.043.jpg)
@@ -106,13 +126,9 @@
 
 # ok #
 
-!SLIDE bullets incremental
+!SLIDE
 
-* data mining
-* data munging
-* debugging
-* customizing git
-* new stuff
+# git tips and tricks #
 
 !SLIDE
 

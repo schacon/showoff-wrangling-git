@@ -26,7 +26,9 @@
 
 !SLIDE center
 
-![peepcode](peepcode.png)
+![gitref](gitref.png)
+
+## http://gitref.org ##
 
 !SLIDE center
 

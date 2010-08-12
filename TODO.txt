@@ -1,7 +1,3 @@
 
-interactive rebase
-cherry pick
-filter branch
-
-overview (all commands covered)
-cheat sheet?
+* add gitref to intro
+* git in 60

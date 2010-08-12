@@ -9,6 +9,6 @@
 * git-scm.com
 * gitref.org
 * progit.org
-* http://mislav.uniqpath.com/2010/07/git-tips/
+* http://mislav.uniqpath.com/2010/07/git-tips
 * schacon@gmail.com
 

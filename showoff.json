@@ -1,19 +1,20 @@
 [
   {"section":"title"},
   {"section":"about_me"},
+  {"section":"git_in_60"},
   {"section":"environment"},
+  {"section":"data_mining"},
   {"section":"describe"},
   {"section":"bundles"},
   {"section":"replace"},
   {"section":"rerere"},
   {"section":"cherry"},
   {"section":"branch_manage"},
-  {"section":"data_mining"},
   {"section":"tracking"},
-  {"section":"data_munging"},
+  {"section":"new_stuff"},
   {"section":"debugging"},
   {"section":"customizing_git"},
-  {"section":"new_stuff"},
+  {"section":"data_munging"},
   {"section":"hub"},
   {"section":"final"}
 ]
