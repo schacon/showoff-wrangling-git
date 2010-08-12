@@ -39,4 +39,5 @@
 	- b376cb120f0113294b80e7fd540d5dc197797764 Add tests to t0601 to cover the TREE extension
 	+ 8c870fcebb8f625a8e172a49a44153af8f37c8b7 Add support for extended index entries
 	+ b0941f9c70ffe67f0387a827b338e64ecf3190f0 Add support for inserting empty entries on the index
+
 	
