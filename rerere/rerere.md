@@ -157,3 +157,7 @@ $ git rerere diff
 !SLIDE code
 
 ## git merge --rerere-autoupdate ##
+
+!SLIDE code
+
+## git config --global rerere.autoupdate 1 ##
