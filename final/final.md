@@ -7,7 +7,8 @@
 # Resources #
 
 * git-scm.com
+* gitref.org
 * progit.org
-* \#git / \#github on IRC
+* http://mislav.uniqpath.com/2010/07/git-tips/
 * schacon@gmail.com
 

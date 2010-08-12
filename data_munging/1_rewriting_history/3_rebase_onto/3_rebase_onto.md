@@ -76,21 +76,3 @@
 !SLIDE center
 ![img/RebaseOnto/RebaseOnto.213.jpg](img/RebaseOnto/RebaseOnto.213.jpg)
 
-!SLIDE center
-![img/RebaseOnto/RebaseOnto.214.jpg](img/RebaseOnto/RebaseOnto.214.jpg)
-
-!SLIDE center
-![img/RebaseOnto/RebaseOnto.215.jpg](img/RebaseOnto/RebaseOnto.215.jpg)
-
-!SLIDE center
-![img/RebaseOnto/RebaseOnto.216.jpg](img/RebaseOnto/RebaseOnto.216.jpg)
-
-!SLIDE center
-![img/RebaseOnto/RebaseOnto.217.jpg](img/RebaseOnto/RebaseOnto.217.jpg)
-
-!SLIDE center
-![img/RebaseOnto/RebaseOnto.218.jpg](img/RebaseOnto/RebaseOnto.218.jpg)
-
-!SLIDE center
-![img/RebaseOnto/RebaseOnto.219.jpg](img/RebaseOnto/RebaseOnto.219.jpg)
-

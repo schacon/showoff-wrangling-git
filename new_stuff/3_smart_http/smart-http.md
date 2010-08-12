@@ -1,4 +1,4 @@
-!SLIDE subsection
+!SLIDE
 
 # Smart HTTP Transport #
 
