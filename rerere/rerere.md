@@ -11,11 +11,35 @@
 
 !SLIDE code
 
+# Original File #
+
 	@@@ruby
 	#! /usr/bin/env ruby
 
 	def hello
 	  puts 'hello world'
+	end
+
+!SLIDE code
+
+# in master branch #
+
+	@@@ruby
+	#! /usr/bin/env ruby
+
+	def hello
+	  puts 'hello mundo'
+	end
+
+!SLIDE code
+
+# in i18n-world branch #
+
+	@@@ruby
+	#! /usr/bin/env ruby
+
+	def hello
+	  puts 'hola world'
 	end
 
 !SLIDE commandline incremental
@@ -29,28 +53,6 @@
 	$ git rerere status
 	hello.rb
 
-!SLIDE
-
-<pre>
-$ git rerere diff
---- a/hello.rb
-+++ b/hello.rb
-@@ -1,11 +1,11 @@
- #! /usr/bin/env ruby
-
- def hello
-<span class="red">-<<<<<<<
--  puts 'hello mundo'
--=======</span>
-<span class="green">+<<<<<<< HEAD</span>
-   puts 'hola world'
-<span class="red">->>>>>>></span>
-<span class="green">+=======
-+  puts 'hello mundo'
-+>>>>>>> i18n-world</span>
- end
-</pre>
-
 !SLIDE commandline incremental
 
 	$ git ls-files -u
@@ -58,7 +60,7 @@ $ git rerere diff
 	100644 a440db6e8d1fd76ad438a49025a9ad9ce746f581 2	hello.rb
 	100644 54336ba847c3758ab604876419607e9443848474 3	hello.rb
 	
-	$ echo 'hola mundo' > hello.rb
+	$ # edit hello.rb to be 'hola mundo'
 	$ git add hello.rb
 	
 !SLIDE

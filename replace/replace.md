@@ -53,7 +53,8 @@
 
 !SLIDE commandline incremental
 
-	$ echo 'get history from blah blah blah' | git commit-tree history~1^{tree}
+	$ echo 'get history from blah blah blah' | 
+    git commit-tree history~1^{tree}
 	622e88e9cbfbacfb75b5279245b9fb38dfea10cf
 
 !SLIDE center

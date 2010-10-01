@@ -48,4 +48,7 @@
 
 # &lt;/me&gt; #
 
+!SLIDE center
+
+# random git tips #
 

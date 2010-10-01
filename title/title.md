@@ -4,6 +4,4 @@
 
 ## Advanced Tips and Tricks ##
 
-### by Scott Chacon ###
-
 
